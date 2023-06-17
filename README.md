@@ -17,8 +17,8 @@ An Advice Web app using HTML, CSS, Javascipt. I have used Advice Slip API to get
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Faizal2312/Advice-Slip](https://your-solution-url.com)
+- Live Site URL: [https://faizal2312.github.io/Advice-Slip/](https://your-live-site-url.com)
 
 ### Built with
 
