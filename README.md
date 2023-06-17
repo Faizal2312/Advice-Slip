@@ -28,6 +28,4 @@ An Advice Web app using HTML, CSS, Javascipt. I have used Advice Slip API to get
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Advice Generator](https://www.your-site.com)
