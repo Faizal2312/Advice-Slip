@@ -8,9 +8,12 @@
 
 ## Overview
 
+An Advice Web app using HTML, CSS, Javascipt. I have used Advice Slip API to get random advice in the app.
+
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop Version](images\desktop.png)
+![Mobile version](images\mobile.png)
 
 ### Links
 

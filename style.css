@@ -1,8 +1,110 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
 }
 
 body {
   background-color: hsl(218, 23%, 16%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: hsl(217, 19%, 24%);
+  max-width: 38%;
+  min-height: 20%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+  gap: 30px;
+}
+
+.advice {
+  color: hsl(193, 38%, 86%);
+  font-weight: 800;
+  font-size: 1.75rem;
+  text-align: center;
+}
+.adviceBox {
+  margin-bottom: 18px;
+}
+
+.title {
+  color: hsl(150, 100%, 66%);
+  font-weight: 800;
+  letter-spacing: 4px;
+  font-size: 11px;
+}
+
+.lines {
+  display: flex;
+  width: 90%;
+  height: 4px;
+  gap: 5px;
+  position: relative;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.line {
+  background-color: hsl(217, 19%, 38%);
+  width: 43%;
+  height: 1px;
+  /* margin-right: 15px;
+  margin-left: 11px; */
+}
+.vertical {
+  background-color: hsl(193, 38%, 86%);
+  width: 5px;
+  height: 15px;
+  border-radius: 20px;
+}
+
+.v {
+  height: 20px;
+  /* align-items: center; */
+  /* justify-content: start; */
+  position: absolute;
+  left: 50%;
+  top: -10px;
+  display: flex;
+  gap: 10px;
+  transform: translateX(-50%);
+  /* margin-bottom: 50px; */
+}
+
+.dice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  background-color: hsl(150, 100%, 66%);
+  bottom: -10%;
+}
+
+.dice:hover {
+  box-shadow: 0px 0px 20px hsl(150, 100%, 66%);
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .v {
+    left: 46%;
+  }
+
+  .advice {
+    font-size: 1.25rem;
+  }
 }
