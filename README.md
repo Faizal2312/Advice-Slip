@@ -12,8 +12,8 @@ An Advice Web app using HTML, CSS, Javascipt. I have used Advice Slip API to get
 
 ### Screenshot
 
-![Desktop Version](images\desktop.png)
-![Mobile version](images\mobile.png)
+![Desktop Version](images/desktop.png)
+![Mobile version](images/mobile.png)
 
 ### Links
 
